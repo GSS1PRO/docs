@@ -26,9 +26,11 @@ A capacidade de executar comandos diretamente do seu teclado, sem navegar por me
 
 ## Abrindo o {% data variables.product.prodname_command_palette %}
 
-Abra a paleta de comandos usando um dos seguintes atalhos de teclado:
+Open the command palette using one of the following default keyboard shortcuts:
 - Windows e Linux: <kbd>Ctrl</kbd>+<kbd>K</kbd> or <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>K</kbd>
 - Mac: <kbd>Command</kbd>+<kbd>K</kbd> ou <kbd>Command</kbd>+<kbd>Option</kbd>+<kbd>K</kbd>
+
+You can customize the keyboard shortcuts you use to open the command palette in the [Accessibility section](https://github.com/settings/accessibility) of your user settings. For more information, see "[Customizing your {% data variables.product.prodname_command_palette %} keyboard shortcuts](#customizing-your-github-command-palette-keyboard-shortcuts)."
 
 Ao abrir a paleta de comando, ela mostra sua localização no canto superior esquerdo e a usa como o escopo de sugestões (por exemplo, a organização `mashed-avocado`).
 
@@ -42,6 +44,12 @@ Ao abrir a paleta de comando, ela mostra sua localização no canto superior esq
 
 {% endnote %}
 
+### Customizing your {% data variables.product.prodname_command_palette %} keyboard shortcuts
+
+
+The default keyboard shortcuts used to open the command palette may conflict with your default OS and browser keyboard shortcuts. You have the option to customize your keyboard shortcuts in the [Accessibility section](https://github.com/settings/accessibility) of your account settings. In the command palette settings, you can customize the keyboard shortcuts for opening the command palette in both search mode and command mode.
+
+![Command palette keyboard shortcut settings](/assets/images/help/command-palette/command-palette-keyboard-shortcut-settings.png)
 ## Navegando com {% data variables.product.prodname_command_palette %}
 
 Você pode usar a paleta de comandos para navegar para qualquer página que você tenha acesso em {% data variables.product.product_name %}.
@@ -96,7 +104,7 @@ Você pode usar o {% data variables.product.prodname_command_palette %} para exe
 
 Para obter uma lista completa dos comandos compatíveis, consulte "[Referência de {% data variables.product.prodname_command_palette %}](#github-command-palette-reference)".
 
-1. Use <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>K</kbd> (Windows e Linux) ou <kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>K</kbd> (Mac) para abrir a paleta de comandos no modo de comando. Se você já tiver a paleta de comandos aberta, pressione <kbd>></kbd> para alternar para o modo de comando. {% data variables.product.prodname_dotcom %} sugere comandos baseados na sua localização.
+1. The default keyboard shortcuts to open the command palette in command mode are <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>K</kbd> (Windows and Linux) or <kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>K</kbd> (Mac). Se você já tiver a paleta de comandos aberta, pressione <kbd>></kbd> para alternar para o modo de comando. {% data variables.product.prodname_dotcom %} sugere comandos baseados na sua localização.
 
    ![Modo de comando da paleta de comando](/assets/images/help/command-palette/command-palette-command-mode.png)
 
@@ -106,12 +114,15 @@ Para obter uma lista completa dos comandos compatíveis, consulte "[Referência 
 
 4. Use as setas do teclado para destacar o comando que você deseja e use <kbd>Enter</kbd> para executá-lo.
 
+
 ## Fechando a paleta de comandos
 
 Quando a paleta de comando está ativa, você pode usar um dos seguintes atalhos de teclado para fechar a paleta de comandos:
 
 - Modo de pesquisa e navegação: <kbd>Esc</kbd> ou <kbd>Ctrl</kbd>+<kbd>K</kbd> (Windows e Linux)  <kbd>Command</kbd>+<kbd>K</kbd> (Mac)
 - Modo de comando: <kbd>Esc</kbd> ou <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>K</kbd> (Windows e Linux)  <kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>K</kbd> (Mac)
+
+If you have customized the command palette keyboard shortcuts in the Accessibility settings, your customized keyboard shortcuts will be used for both opening and closing the command palette.
 
 ## Referência de {% data variables.product.prodname_command_palette %}
 
@@ -135,14 +146,14 @@ Essas keystrokes estão disponíveis quando a paleta de comandos está nos modos
 
 Estes comandos estão disponíveis em todos os escopos.
 
-| Comando                                | Comportamento                                                                                                                                                                                                                                                                                                  |
-|:-------------------------------------- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `Importar repositório`                 | Criar um novo repositório importando um projeto de outro sistema de controle de versão. Para obter mais informações, consulte "[Importando um repositório com o Importador do GitHub](/github/importing-your-projects-to-github/importing-source-code-to-github/importing-a-repository-with-github-importer)". |
-| `Novo gist`                            | Abra um novo gist. Para obter mais informações, consulte[Criando um gist](/github/writing-on-github/editing-and-sharing-content-with-gists/creating-gists)."                                                                                                                                                   |
-| `Nova organização`                     | Criar uma nova organização Para obter mais informações, consulte "[Criar uma nova organização do zero](/organizations/collaborating-with-groups-in-organizations/creating-a-new-organization-from-scratch)".                                                                                                   |
-| `Novo projeto`                         | Criar um novo quadro de projeto. Para obter mais informações, consulte "[Criar um quadro de projeto](/issues/trying-out-the-new-projects-experience/creating-a-project)".                                                                                                                                      |
-| `Novo repositório`                     | Criar um novo repositório a partir do zero. Para obter mais informações, consulte "[Criar um novo repositório](/repositories/creating-and-managing-repositories/creating-a-new-repository)."                                                                                                                   |
-| `Alterar tema para <theme name>` | Mude diretamente para um tema diferente para a interface do usuário. Para obter mais informações, consulte "[Gerenciando as suas configurações de tema](/account-and-profile/setting-up-and-managing-your-github-user-account/managing-user-account-settings/managing-your-theme-settings)".                   |
+| Comando                                | Comportamento                                                                                                                                                                                                                                                                                                       |
+|:-------------------------------------- |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `Importar repositório`                 | Criar um novo repositório importando um projeto de outro sistema de controle de versão. Para obter mais informações, consulte "[Importando um repositório com o Importador do GitHub](/get-started/importing-your-projects-to-github/importing-source-code-to-github/importing-a-repository-with-github-importer)". |
+| `Novo gist`                            | Abra um novo gist. Para obter mais informações, consulte[Criando um gist](/get-started/writing-on-github/editing-and-sharing-content-with-gists/creating-gists)."                                                                                                                                                   |
+| `Nova organização`                     | Criar uma nova organização Para obter mais informações, consulte "[Criar uma nova organização do zero](/organizations/collaborating-with-groups-in-organizations/creating-a-new-organization-from-scratch)".                                                                                                        |
+| `Novo projeto`                         | Criar um novo quadro de projeto. Para obter mais informações, consulte "[Criar um quadro de projeto](/issues/trying-out-the-new-projects-experience/creating-a-project)".                                                                                                                                           |
+| `Novo repositório`                     | Criar um novo repositório a partir do zero. Para obter mais informações, consulte "[Criar um novo repositório](/repositories/creating-and-managing-repositories/creating-a-new-repository)."                                                                                                                        |
+| `Alterar tema para <theme name>` | Mude diretamente para um tema diferente para a interface do usuário. Para obter mais informações, consulte "[Gerenciando as suas configurações de tema](/account-and-profile/setting-up-and-managing-your-github-user-account/managing-user-account-settings/managing-your-theme-settings)".                        |
 
 
 ### Comandos da organização
